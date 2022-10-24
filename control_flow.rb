@@ -7,6 +7,7 @@ def admin_login(username, password)
   else
     "Access denied"
   end
+end 
 
 def hows_the_weather(temperature)
   # your code here
@@ -19,6 +20,7 @@ def hows_the_weather(temperature)
   else
     "It's perfect out there!"
   end
+end
 
 def fizzbuzz(num)
   # your code here
@@ -31,6 +33,7 @@ def fizzbuzz(num)
   else
     num
   end
+end 
 
 def calculator(operation, num1, num2)
   # your code here
@@ -45,5 +48,5 @@ def calculator(operation, num1, num2)
     num1/num2
   else puts "Invalid operation!" 
   end
-
+end
 
